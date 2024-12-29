@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "735780893830",
+    "project_id": "flashchat-66d1f",
+    "storage_bucket": "flashchat-66d1f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735780893830:android:0bfddb9d4140dd75320d07",
+        "android_client_info": {
+          "package_name": "com.naaasruul.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlXIICjEySMtqb8KKgtw06jtSiGPNEgqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735780893830:android:dc34a9cacbd1117b320d07",
+        "android_client_info": {
+          "package_name": "com.naaasruul.flash_chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlXIICjEySMtqb8KKgtw06jtSiGPNEgqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
