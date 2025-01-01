@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flash_chat/constants.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
+
 
 class ChatScreen extends StatefulWidget {
   static String id = 'chat_screen';
@@ -10,6 +12,7 @@ class ChatScreen extends StatefulWidget {
 }
 
 class _ChatScreenState extends State<ChatScreen> {
+  bool isLoading = false;
   final _auth = FirebaseAuth.instance;
   late User loggedInUser;
   void getCurrentUser () async{
